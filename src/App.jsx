@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   const handlers = useSwipeable({
     onSwiped: (eventData) => console.log("User Swiped!", eventData),
-    preventScrollOnSwipe: true,
+    preventScrollOnSwipe: false, // Allow scrolling
     trackMouse: true,
   });
 
