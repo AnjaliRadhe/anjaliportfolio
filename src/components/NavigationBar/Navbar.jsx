@@ -7,16 +7,35 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      const offset = window.scrollY;
+      setIsScrolled(offset > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    const navbarLinks = document.querySelectorAll(".nav-link");
+
+    const handleLinkClick = () => {
+      if (navbarCollapse.classList.contains("show")) {
+        navbarCollapse.classList.remove("show");
+      }
+    };
+
+    navbarLinks.forEach(link => {
+      link.addEventListener("click", handleLinkClick);
+    });
+
+    return () => {
+      navbarLinks.forEach(link => {
+        link.removeEventListener("click", handleLinkClick);
+      });
     };
   }, []);
 
