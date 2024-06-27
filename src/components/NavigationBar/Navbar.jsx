@@ -48,7 +48,7 @@ const Navbar = () => {
     <nav
       className={`navbar navbar-light navbar-expand-lg sticky-top ${styles.navbar} ${
         isScrolled ? styles.scrolled : ""
-      }`} id="home"
+      }`} 
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
