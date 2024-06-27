@@ -3,6 +3,7 @@
   text-align: center;
   margin-top: 20px;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, #e5be9a 100%);
+  overflow-y:auto;
 }
 
 .heading {

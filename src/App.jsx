@@ -4,10 +4,11 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects"
 import Justlikethat from './components/JustLikeThat/Justlikethat'
 import Footer from './components/Footer/Footer';
+import styles from './App.module.css' 
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.body}>
       <Navbar />
       <About />
       <Skills />
