@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Porfolio",
+    "description": "I created this website after the boot camp using HTML, CSS, JavaScript, React, and Bootstrap. The sleek responsiveness, captivating colour gradients, and the dynamic plane animation using CSS and JQuery truly bring it to life.",
+    "imageKey": "project1",
+    "link": "#"
+  },
+  {
+    "title": "Ecommerce Website",
+    "description": "This project was completed before I learned React. It was built using HTML, CSS, and JS. Crafting wireframes, coding the website, designing logos, and selecting the color palette using Canva was an incredibly fulfilling experience.",
+    "imageKey": "project2",
+    "link": "https://anjaliradhe.github.io/TheZenPlace/"
+  },
+  {
+    "title": "Coming soon",
+    "description": "Working on another beautiful website using redux",
+    "imageKey": "project3",
+    "link": "#"
+  }
+]

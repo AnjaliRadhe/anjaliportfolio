@@ -1,0 +1,78 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #4e8779;
+}
+
+.funFacts {
+  margin-bottom: 20px;
+}
+
+.funFacts li {
+  text-align: left;
+}
+
+.italicBold {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.instagramLogo {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.snip1577 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  width: 250px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  cursor: pointer;
+  transition: transform 0.5s;
+  border-radius: 2px;
+  border: #4e8779 solid 6px;
+}
+h3 {
+  color: white !important;
+}
+.snip1577 img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.snip1577:hover img {
+  transform: scale(1.1);
+}
+
+.snip1577:hover figcaption {
+  opacity: 1;
+}
+
+.zoomOut {
+  transform: scale(0.9); /* Adjust the zoom-out scale */
+}

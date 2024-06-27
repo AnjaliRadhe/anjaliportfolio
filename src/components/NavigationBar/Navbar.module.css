@@ -1,0 +1,54 @@
+/* Navbar.module.css */
+
+.navbar {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, #e5be9a 100%);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar.scrolled {
+  background: #e5be9a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  color: #4e8779;
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.navlink {
+  font-size: 1rem;
+  color: #4e8779 !important;
+  transition: color 0.3s;
+  margin: 10px !important;
+}
+
+.navlink:hover {
+  background-color: #d8a073;
+  color: beige !important;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, #4e8779 100%);
+}
+
+.nav-item.active .nav-link {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.navbar-toggler {
+  z-index: 1050; /* Ensure it's higher than other elements */
+  border: 1px solid blue I !important; /* Temporary border for inspection */
+}
+
+.navbar-toggler-icon {
+  color: black !important; /* Ensure the icon is visible */
+  border: 1px solid red; /* Temporary border for inspection */
+}

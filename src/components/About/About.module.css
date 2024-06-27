@@ -1,0 +1,87 @@
+.aboutSection {
+  padding: 50px 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a7a72;
+}
+
+.description {
+  font-size: 1rem;
+  color: #ff8744;
+  margin: 20px 0;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+
+.customButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid #4a7a72 !important;
+  background-color: #4a7a72 !important;
+  color: #d8a073 !important;
+  transition: all 0.3s ease !important;
+}
+
+.customButton:hover {
+  background-color: #d8a073 !important;
+  color: beige !important;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+.plane {
+  position: absolute;
+  left: -10%;
+  width: 20%;
+}
+
+.aboutImage {
+  margin-bottom: 20px;
+}
+
+.content {
+  padding-top: 0px;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  .aboutImage {
+    margin-bottom: 2px;
+  }
+  .content {
+    margin: 0px;
+    padding-left: 20px;
+  }
+  .plane {
+    position: absolute;
+    left: -10%;
+    width: 40%;
+  }
+}

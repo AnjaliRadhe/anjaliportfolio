@@ -1,0 +1,45 @@
+.footer {
+  margin-top: 20px;
+  background-color: #4e8779;
+  color: #f1d7b6;
+  padding: 20px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    #4e8779 100%
+  );
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+h2 {
+  color: #4e8779;
+  margin-bottom: 10px;
+}
+
+.email {
+  color: white;
+  margin-top: 20px;
+}
+
+.link {
+  display: inline-block;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  margin-right: 10px; /* Adding space between icons */
+}
+
+.link:hover {
+  text-decoration: none; /* Remove underline */
+  background-color: #f1d7b6;
+}
+
+.footer .icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+}

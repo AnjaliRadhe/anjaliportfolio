@@ -1,0 +1,53 @@
+/* Skills.module.css */
+.container {
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, #e5be9a 100%);
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-top: 20px !important;
+  color: #4e8779;
+}
+
+.iconRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.iconWrapper {
+  flex: 0 0 auto;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icon img {
+  max-width: 70%;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+  font-size: 1.5rem;
+  color: #2f4f4f;
+  font-style: italic;
+  margin: 30px;
+}

@@ -1,0 +1,20 @@
+/* Projects.module.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color:#4e8779 ;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+   
+}
