@@ -18,10 +18,10 @@ const Footer = () => {
             <div className="d-flex flex-column flex-md-row align-items-center text-center">
               <h2 className="mr-md-3 mb-2 mb-md-0">Follow</h2>
               <div className="d-flex">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+                <a href="https://www.linkedin.com/in/anjali-gopalakrishnan-356148247/m" target="_blank" rel="noopener noreferrer" className={styles.link}>
                   <img src={twitterIcon} alt="Twitter" className={styles.icon} />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+                <a href="https://www.instagram.com/the_colourful_labyrinth/" target="_blank" rel="noopener noreferrer" className={styles.link}>
                   <img src={instagramIcon} alt="Instagram" className={styles.icon} />
                 </a>
               </div>
