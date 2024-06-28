@@ -18,9 +18,6 @@ const About = () => {
         width: window.innerWidth,
         height: window.innerHeight,
       });
-
-      // Reload the page when screen size changes
-      window.location.reload();
     };
 
     window.addEventListener("resize", handleResize);
