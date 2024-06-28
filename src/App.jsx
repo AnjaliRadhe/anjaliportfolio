@@ -1,5 +1,4 @@
 import React from "react";
-import { useSwipeable } from "react-swipeable";
 import styles from "./App.module.css"; // Assuming you have defined styles in a CSS module file
 import Navbar from "./components/NavigationBar/Navbar";
 import About from "./components/About/About";
@@ -9,14 +8,8 @@ import Justlikethat from "./components/JustLikeThat/Justlikethat";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  const handlers = useSwipeable({
-    onSwiped: (eventData) => console.log("User Swiped!", eventData),
-    preventScrollOnSwipe: false, // Allow scrolling
-    trackMouse: true,
-  });
-
   return (
-    <div {...handlers} className={styles.body} id="home">
+    <div className={styles.body} id="home">
       <Navbar />
       <About />
       <Skills />
