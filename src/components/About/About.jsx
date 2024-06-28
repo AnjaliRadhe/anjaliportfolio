@@ -10,21 +10,6 @@ const About = () => {
     height: window.innerHeight,
   });
 
-  useEffect(() => {
-    planeanimation();
-
-    const handleResize = () => {
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
     <div className={`container ${styles.aboutSection}`} id="about">
       <div className="row">
@@ -39,8 +24,10 @@ const About = () => {
           <div className={styles.content}>
             <h1 className={styles.title}>Hello!</h1>
             <p className={styles.description}>
-              <strong>I am an aspiring web developer passionate about aesthetically
-              designed, highly functional digital applications. </strong>
+              <strong>
+                I am an aspiring web developer passionate about aesthetically
+                designed, highly functional digital applications.{" "}
+              </strong>
             </p>
             <p className={styles.description}>
               After completing a comprehensive web development course with
@@ -57,7 +44,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <img id="plane" src={plane} className={`${styles.plane} `} />
     </div>
   );
 };
